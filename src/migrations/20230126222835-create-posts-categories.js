@@ -8,7 +8,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'blog_posts',
+          model: 'blog_posts', // o model ta dizendo de qual tabela vem a chave id
           key: 'id'
         },
 
@@ -21,7 +21,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'categories',
+          model: 'categories', // o model ta dizendo de qual tabela vem a chave id
           key: 'id'
         },
 

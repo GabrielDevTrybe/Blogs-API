@@ -23,7 +23,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'users',
+          model: 'users', // o model ta dizendo de qual tabela vem a chave id
           key: 'id'
         },
 
